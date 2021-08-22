@@ -3,7 +3,7 @@
 this lib is heavily inspired in clojure's walkable and is for now
 tightly coupled to postgres features.
 
-simply put wight_spider is an abstraction layer for lisp languages
+simply put, wight_spider is an abstraction layer for lisp languages
 (currently only for fennel but the idea can be ported easily) to
 declare json aggregation functions in a readable way and produce
 queries to be consumed by an actual driver/db-system
@@ -22,3 +22,6 @@ as you can see it is quite simple, and indeed it only
 defines the result structure but lets the actual 'query'
 to you
 
+this saves you from the eternal suffering of defining classes
+in an ORM, and lets you build json apis very quickly,
+you're welcome.
